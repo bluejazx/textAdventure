@@ -1,18 +1,13 @@
 #include <iostream>
 #include <vector>
 
-//totals the players stats
-int stat_total(int strength, int perception, int endurance, int charisma, int intellegience, int agility, int luck )
-{
-  int total = (strength + perception + endurance + charisma + intellegience + agility + luck );
-  return total;
-}
+
 
 //allows the player to name things
 std::string name()
 {
   std::string new_name;
-  std::cout << "Enter the name you desire: \n";
+  std::cout << "Enter the name you desire for: \n";
   std::cin >> new_name;
   return new_name;
 }
