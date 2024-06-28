@@ -1,0 +1,4 @@
+class Consumable : public Item
+{
+
+};
