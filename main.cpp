@@ -1,6 +1,8 @@
 #include <iostream>
+#include "narrator.hpp"
 
 int main()
 {
-    std::cout << "hello world...";
+    Narrator bmo("Narrator");
+    bmo.welcome();
 }
