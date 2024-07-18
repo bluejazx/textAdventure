@@ -1,6 +1,6 @@
 #include <iostream>
 #include "narrator.hpp"
-#include "player.cpp"
+#include "player.hpp"
 
 int main()
 {

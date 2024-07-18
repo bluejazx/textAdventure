@@ -18,3 +18,15 @@ void speak(std::string const &name, std::vector<std::string> &lines)
     std::cout << "..." << std::endl;  
     getch();
 }
+
+void display_options(std::vector<std::string> &options)
+{
+    std::cout << "Enter the number of an option from the menu below: ";
+    for(int i = 0; i < options.size(); i++)
+    {
+        int j = 1;
+        std::cout << j + ". " + options[i];
+        j++;
+    }
+    options.clear();
+}

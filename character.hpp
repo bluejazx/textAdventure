@@ -18,3 +18,6 @@ class Character
 
 //takes in a refrence to a chracters name and lines vector adn prints all line individualy followed by a ellipse and then clears the pausing every 5 lines and again at the end
 void speak(std::string const &name, std::vector<std::string> &lines);
+
+//Prints out menu of possible player choices
+void display_options(std::vector<std::string> options);
