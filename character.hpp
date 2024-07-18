@@ -16,5 +16,5 @@ class Character
         Character(std::string name);
 };
 
-//takes in a refrence to a chracters name and lines vector adn prints all line individualy followed by a ... and then clears the pausing every 5 lines and again at the end
+//takes in a refrence to a chracters name and lines vector adn prints all line individualy followed by a ellipse and then clears the pausing every 5 lines and again at the end
 void speak(std::string const &name, std::vector<std::string> &lines);
