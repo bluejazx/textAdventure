@@ -6,5 +6,6 @@ int main()
 {
     Narrator bmo("Narrator");
     Player p1(bmo.welcome());
+    bmo.introduction();
 
 }

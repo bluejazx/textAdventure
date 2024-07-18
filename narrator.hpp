@@ -14,4 +14,7 @@ class Narrator : public Character
 
         //displays welcome message to player and gets their name storing it in player object and in Narrator
         std::string welcome();
+
+        //exposition and game introduction for the player
+        void introduction();
 };
