@@ -21,11 +21,11 @@ void speak(std::string const &name, std::vector<std::string> &lines)
 
 void display_options(std::vector<std::string> &options)
 {
-    std::cout << "Enter the number of an option from the menu below: ";
+    std::cout << "Enter an option from the menu Below:  " << std::endl;
+    int j = 1;
     for(int i = 0; i < options.size(); i++)
     {
-        int j = 1;
-        std::cout << j + ". " + options[i];
+        std::cout << j << ". " + options[i] << std::endl;
         j++;
     }
     options.clear();

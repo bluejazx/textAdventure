@@ -11,6 +11,10 @@ class Character
         std::vector<std::string> character_lines;
         //what the chracter is named and is refered to as in both code and game
         std::string chararacter_name;
+        //track player choice
+        int player_choice;
+        //tracks the option player is given
+        int player_option = 1;
     public:
         //creates new character using just a name
         Character(std::string name);
@@ -20,4 +24,4 @@ class Character
 void speak(std::string const &name, std::vector<std::string> &lines);
 
 //Prints out menu of possible player choices
-void display_options(std::vector<std::string> options);
+void display_options(std::vector<std::string> &options);
